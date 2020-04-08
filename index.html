@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>House Find &mdash; Your real estate agent</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="estate logo" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search estates"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+
+          <div class="user-nav__user">
+            <img
+              src="img/retro.jpg"
+              alt="user profile"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Jonathan</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Estates</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-office"></use>
+                </svg>
+                <span>apartments</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Rent estate</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>residential area</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            &copy; 2020 by JLN. All rights reserved.
+          </div>
+        </nav>
+        <main class="estate-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/estate-1.jpg"
+                alt="Photo of estate 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/estate-2.jpg"
+                alt="Photo of estate 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/estate-3.jpg"
+                alt="Photo of estate 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+          <div class="overview">
+            <h1 class="overview__heading">
+              BOSTADSRÄTTSLÄGENHET
+            </h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Liljeholmen, Stockholm</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">Pris</div>
+              <div class="overview__rating-count">6 585 000 kr</div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="description">
+              <p class=" paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class=" paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Two Bedrooms</li>
+                <li class="list__item">Three Rooms</li>
+                <li class="list__item">Free wifi in all rooms</li>
+                <li class="list__item">Air conditioning and heating</li>
+                <li class="list__item">Pets allowed</li>
+                <li class="list__item">Plastic bucket for shower</li>
+                <li class="list__item">Perfect for families</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Lucy and 3 other friends recommend this apartment.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <figure class="estate-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  The innovative solution with a bucket for a toilet and shower
+                  is magnificent. I been a estate agent for years and will be
+                  your guide to buying this house
+                </blockquote>
+                <figcaption class="review__realtors">
+                  <img src="img/user-8.jpg" alt="" class="review__photo" />
+                  <div class="review__realtor-box">
+                    <p class="review__realtor-name">Nick Smith</p>
+                    <p class="review__realtor-date">Feburary 23rd, 2020</p>
+                  </div>
+                  <div class="review__rating">9.8</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Im a estate agent for this property. Please, just buy this
+                  amazing home. I have not sold a house in years.
+                </blockquote>
+                <figcaption class="review__realtors">
+                  <img src="img/user-9.jpg" alt="" class="review__photo" />
+                  <div class="review__realtor-box">
+                    <p class="review__realtor-name">Johnny John</p>
+                    <p class="review__realtor-date">Mars 13rd, 2020</p>
+                  </div>
+                  <div class="review__rating">9.9</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+
+            <div class="cta">
+              <h2 class="cta__buy-now">
+                Good news! There has been no bid to the apartment, be the first!
+              </h2>
+              <button class="btn">
+                  <span class="btn__visible">Buy now</span>
+                  <span class="btn__invisible">Free coupons at LIDL for first offer</span>
+
+              </button>
+            </div>
+
+        </figure>
+        </main>
+      </div>
+    </div>
+  
+  </body>
+</html>
