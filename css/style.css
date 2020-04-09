@@ -8,6 +8,7 @@ COLORS
 */
 @import 'components.css';
 @import 'layout.css';
+@import 'media.css';
 :root {
   --color-primary: #e8de83;
   --color-primary-light: #fcf7cd;
@@ -39,7 +40,8 @@ COLORS
 }
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+  font-size: 62.5%;
+  /* // 1rem = 10px, 10px/16px = 62.5% */
 }
 
 body {

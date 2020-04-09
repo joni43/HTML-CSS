@@ -365,6 +365,7 @@
 }
 
 .recommend__friends {
+  display: flex;
 }
 .recommend__photo {
   box-sizing: content-box;
@@ -374,7 +375,7 @@
   border: 3px solid #fff;
 }
 .recommend__photo:not(:last-child) {
-  margin-right: -1.5rem;
+  margin-right: -2rem;
 }
 
 /*
